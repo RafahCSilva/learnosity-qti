@@ -25,7 +25,7 @@ class ItemMapperTest extends \PHPUnit\Framework\TestCase
     /* @var PHPUnit_Framework_MockObject_MockObject $itemMapper */
     private $itemBuilderFactoryMock;
 
-    public function setup()
+    protected function setUp(): void
     {
         $this->itemBuilderFactoryMock = $this->getMockBuilder('LearnosityQti\Processors\QtiV2\In\ItemBuilderFactory')
             ->disableOriginalConstructor()->getMock();

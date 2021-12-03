@@ -15,7 +15,7 @@ class MatchInteractionTest extends AbstractTest
     /* @var $mapper ItemMapper */
     private $mapper;
 
-    public function setup()
+    protected function setUp(): void
     {
         $this->file = $this->getFixtureFileContents('interactions/match.xml');
         $this->mapper = AppContainer::getApplicationContainer()->get('qtiv2_item_mapper');

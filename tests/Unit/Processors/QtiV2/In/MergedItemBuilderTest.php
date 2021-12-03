@@ -15,7 +15,7 @@ class MergedItemBuilderTest extends \PHPUnit\Framework\TestCase
     /* @var MergedItemBuilder $mergedItemBuilder */
     private $mergedItemBuilder;
 
-    public function setup()
+    protected function setUp(): void
     {
         $this->mergedItemBuilder = new MergedItemBuilder();
     }

@@ -16,7 +16,7 @@ class OrderInteractionTest extends AbstractTest
     /* @var $mapper ItemMapper */
     private $mapper;
 
-    public function setup()
+    protected function setUp(): void
     {
         $this->file = $this->getFixtureFileContents('interactions/order.xml');
         $this->mapper = AppContainer::getApplicationContainer()->get('qtiv2_item_mapper');

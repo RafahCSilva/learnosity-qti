@@ -7,7 +7,7 @@ use LearnosityQti\Services\LogService;
 
 abstract class AbstractInteractionTest extends \PHPUnit\Framework\TestCase
 {
-    public function tearDown()
+    protected function tearDown(): void
     {
         LogService::flush();
     }

@@ -6,3 +6,5 @@ reports
 _vault
 data/convert:to:learnosity.log.json
 /nbproject/private/
+tests/_reports/
+.phpunit.result.cache

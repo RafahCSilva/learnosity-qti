@@ -15,7 +15,7 @@ class RegularItemBuilderTest
     /* @var RegularItemBuilder $regularItemBuilder */
     private $regularItemBuilder;
 
-    public function setup()
+    protected function setUp(): void
     {
         $this->regularItemBuilder = new RegularItemBuilder();
     }
