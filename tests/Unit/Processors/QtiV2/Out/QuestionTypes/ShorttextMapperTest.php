@@ -14,7 +14,7 @@ use qtism\data\state\MapEntry;
 use qtism\data\state\ResponseDeclaration;
 use qtism\data\state\Value;
 
-class ShorttextMapperTest extends \PHPUnit_Framework_TestCase
+class ShorttextMapperTest extends \PHPUnit\Framework\TestCase
 {
     public function testSimpleCaseWithSimpleValidation()
     {

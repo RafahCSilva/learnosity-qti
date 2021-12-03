@@ -8,7 +8,7 @@ use LearnosityQti\Utils\QtiMarshallerUtil;
 use qtism\data\content\interactions\ExtendedTextInteraction;
 use qtism\data\content\interactions\TextFormat;
 
-class LongtextMapperTest extends \PHPUnit_Framework_TestCase
+class LongtextMapperTest extends \PHPUnit\Framework\TestCase
 {
     public function testMappingSimpleQuestionWithNoValidation()
     {

@@ -17,7 +17,7 @@ use qtism\data\state\MapEntry;
 use qtism\data\state\ResponseDeclaration;
 use qtism\data\state\Value;
 
-class ChoicematrixMapperTest extends \PHPUnit_Framework_TestCase
+class ChoicematrixMapperTest extends \PHPUnit\Framework\TestCase
 {
     public function testSingularResponsesWithNoValidation()
     {

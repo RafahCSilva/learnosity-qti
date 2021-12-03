@@ -18,7 +18,7 @@ use qtism\data\content\TextRun;
 use qtism\data\content\xhtml\text\P;
 use qtism\data\processing\ResponseProcessing;
 
-class ItemMapperTest extends \PHPUnit_Framework_TestCase
+class ItemMapperTest extends \PHPUnit\Framework\TestCase
 {
     /* @var ItemMapper $itemMapper */
     private $itemMapper;

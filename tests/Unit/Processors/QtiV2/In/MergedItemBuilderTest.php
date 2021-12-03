@@ -10,7 +10,7 @@ use LearnosityQti\Tests\Unit\Processors\QtiV2\In\Fixtures\ItemBodyBuilder;
 use qtism\data\content\interactions\TextEntryInteraction;
 use qtism\data\QtiComponentCollection;
 
-class MergedItemBuilderTest extends \PHPUnit_Framework_TestCase
+class MergedItemBuilderTest extends \PHPUnit\Framework\TestCase
 {
     /* @var MergedItemBuilder $mergedItemBuilder */
     private $mergedItemBuilder;

@@ -4,7 +4,7 @@ namespace LearnosityQti\Tests;
 
 use LearnosityQti\Utils\FileSystemUtil;
 
-abstract class AbstractTest extends \PHPUnit_Framework_TestCase
+abstract class AbstractTest extends \PHPUnit\Framework\TestCase
 {
     protected function getFixtureFileContents($filepath)
     {

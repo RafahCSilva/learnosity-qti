@@ -18,7 +18,7 @@ use qtism\data\content\interactions\SimpleChoice;
 use qtism\data\processing\ResponseProcessing;
 use qtism\data\state\ResponseDeclaration;
 
-class McqMapperTest extends \PHPUnit_Framework_TestCase
+class McqMapperTest extends \PHPUnit\Framework\TestCase
 {
     public function testSimpleCaseWithNoValidation()
     {

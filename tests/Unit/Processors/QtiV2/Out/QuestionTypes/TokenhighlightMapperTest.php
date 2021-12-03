@@ -8,7 +8,7 @@ use LearnosityQti\Utils\QtiMarshallerUtil;
 use qtism\data\content\interactions\Hottext;
 use qtism\data\content\interactions\HottextInteraction;
 
-class TokenhighlightMapperTest extends \PHPUnit_Framework_TestCase
+class TokenhighlightMapperTest extends \PHPUnit\Framework\TestCase
 {
     public function testWithNoValidation()
     {

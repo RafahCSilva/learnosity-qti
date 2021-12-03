@@ -17,7 +17,7 @@ use qtism\data\processing\ResponseProcessing;
 use qtism\data\state\ResponseDeclaration;
 use qtism\data\state\Value;
 
-class OrderlistMapperTest extends \PHPUnit_Framework_TestCase
+class OrderlistMapperTest extends \PHPUnit\Framework\TestCase
 {
     public function testWithNoValidation()
     {
